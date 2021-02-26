@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+  <h1>мій перший калькулятор</h1>
+  <div id="header">
+    <input type="text" id="input" placeholder="0">
+  </div>
+  <div id="number">
+    <button  id="but" onclick="input(7)">7</button>
+    <button  id="but" onclick="input(8)">8</button>
+    <button  id="but" onclick="input(9)">9</button>
+    <button  id="but" onclick="reset()">C</button>
+  </div>
+
+  <div id="number">
+    <button id="but" onclick="input(4)">4</button>
+    <button id="but" onclick="input(5)">5</button>
+    <button id="but" onclick="input(6)">6</button>
+    <button id="but" onclick="input('-')">-</button>
+
+  </div>
+
+  <div id="number">
+    <button id="but" onclick="input(1)">1</button>
+    <button id="but" onclick="input(2)">2</button>
+    <button id="but" onclick="input(3)">3</button>
+    <button id="but" onclick="input('*')">*</button>
+
+  </div>
+
+    <div id="number">
+    <button id="but" onclick="input(0)">0</button>
+    <button id="but" onclick="input('.')">.</button>
+    <button id="resultat" onclick="result()">=</button>
+    <button  id="but" onclick="input('+')">+</button>
+
+  </div>
+</div>
+
+ <script src="main.js"></script>
+</body>
+</html>
